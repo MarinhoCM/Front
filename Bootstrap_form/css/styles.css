@@ -1,0 +1,15 @@
+body{
+    padding-top:60px ;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    box-shadow: 3px 6px 8px 3px rgba(100, 100, 100, 0.3);
+}
+textarea.form-control{
+    height: 90px;
+    resize: none;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclame Aqui!</title>
+    <link href="./css/bootstrap.min.css"rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div class="container col-6">
+    <div class="card">
+        <div class="card-body">
+            <div class="card-header">
+                <h1 class="d-flex justify-content-center">Ocorrência</h1>
+            </div>
+            <form id="form-contato">
+                <div class="form-group">
+                    <label>Nome:</label>
+                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu primeiro nome...">
+                </div>
+                <div class="form-group">
+                    <label>Sobrenome:</label>
+                    <input class="form-control" type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu segundo nome...">
+                </div>
+                <div class="form-group">
+                    <label>E-mail:</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Digite seu email...">
+                </div>
+                <div class="form-group">
+                    <label>Local:</label>
+                    <input class="form-control" type="text" name="local" id="local" placeholder="Onde ocorreu...">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Reclamação:</label>
+                    <textarea class="form-control" type="text" name="ocorrencia" id="ocorrencia" placeholder="Digite o ocorrido..."></textarea>
+                </div>
+                <br>
+                <div class="form-group text-center d-grid gap-2">
+                    <button class="btn btn-primary"type="submit">Enviar</button>
+                </div>
+                <div class="alert alert-danger d-none">Preencha o campo!</div>
+            </form>
+        </div>
+    </div>
+</div>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script 
+        src="./js/bootstrap.min.js">
+    </script>
+</body>
+</html>
